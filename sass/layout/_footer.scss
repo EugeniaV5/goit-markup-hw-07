@@ -1,0 +1,124 @@
+.footer-section {
+  background-color: var(--dark-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-address-section {
+  font-style: normal;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-address-post {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-white-color);
+  transition: color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-social-list-wrapper {
+  margin-left: 70px;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+
+  transition: background-color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.footer-subscribe-form-wrapper {
+  margin-left: 93px;
+}
+
+.subscribe-form {
+  display: flex;
+}
+.footer-subscribe-input {
+  width: 372px;
+  margin-right: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  background-color: transparent;
+
+  transition: border-color 250ms var(--cubic);
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+}
+
+.footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-send-icon {
+  fill: #ffffff;
+  margin-left: 10px;
+}

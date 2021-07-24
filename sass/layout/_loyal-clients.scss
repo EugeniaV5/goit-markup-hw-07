@@ -1,0 +1,25 @@
+.loyal-clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.loyal-clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  background-color: transparent;
+  fill: #afb1b8;
+
+  transition: fill 250ms var(--cubic), border 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid #2196f3;
+  }
+}
